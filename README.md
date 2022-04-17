@@ -46,5 +46,5 @@ For the workflow at hand, here are the changes made to move from DSL1 to DSL2 co
 4. Notice that parameters are positional (note the different spelling of `trimmomaticjar` in the `module.nf` and `trim_dsl2.nf` files. Refer to this [issue](https://github.com/nextflow-io/nextflow/issues/1694) for how to handle optional inputs
 5. Also notice that the `publishDir` parameter has been passed directly from `nextflow.conf` without explicit definition in the worflow body of `trim_dsl2.nf`.
   
-There is more to DSL2, including the use of pipes and functions. The documentation [here](https://www.nextflow.io/docs/latest/dsl2.html) is helpful to put it in perspective. (To me, being familiar with DSL1 made it easier to follow along)
+There is more to DSL2, including the use of pipes and functions. The documentation [here](https://www.nextflow.io/docs/latest/dsl2.html) is helpful to put it in perspective. (To me, being familiar with DSL1 made it easier to follow along). [This](https://antunderwood.gitlab.io/bioinformant-blog/posts/building_a_dsl2_pipeline_in_nextflow/) is also an excellent blog
 
