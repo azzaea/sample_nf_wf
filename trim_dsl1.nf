@@ -15,6 +15,7 @@ adapters = file(params.adapters)
 
 process TrimSequences {
    publishDir params.TrimOut
+   module params.javaModule
    input:
       file trimmomaticjar          // path to trimmomatic.jar
       file InputRead1              // Input Read File 

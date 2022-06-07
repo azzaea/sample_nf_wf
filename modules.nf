@@ -8,6 +8,7 @@ nextflow.enable.dsl=2
 
 process TrimSequences {
    publishDir params.TrimOut
+   module params.javaModule
    input:
       path trimmomaticjar          // path to trimmomatic.jar
       path InputRead1              // Input Read File 

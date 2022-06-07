@@ -26,8 +26,8 @@ In this case, you need to fill in values in the `nextflow.config` file that rela
 
 Then, invoke it as:
 ```
-nextflow run trim_dsl1.nf -profile cluster
-nextflow run trim_dsl2.nf -profile cluster
+nextflow run trim_dsl1.nf -profile teton
+nextflow run trim_dsl2.nf -profile teton
 ```
 
 Either case, output files will be saved in the directory `TrimOut` :)
